@@ -1,0 +1,43 @@
+第一題
+用makefile
+指令打make就好了
+
+
+第二題
+快速排序明顯比一個一個去排還要來的快
+
+insert_sort
+隨著n增加10倍 我們也可以看到insert_sort花的時間會變成之前的100倍左右也就是(n^2)
+
+quicksort的我們以最後兩個來看的話
+0.03*(1000000/100000)*(log1000000-log100000)大約等於0.51
+
+
+n=1000
+
+sort():0 seconds
+v1/v2 are different.
+insertion_sort():0.01 seconds
+v1/v2 are the same.
+
+n=10000
+
+sort():0 seconds
+v1/v2 are different.
+insertion_sort():1.28 seconds
+v1/v2 are the same.
+
+n=100000
+
+sort():0.04 seconds
+v1/v2 are different.
+insertion_sort():128.19 seconds
+v1/v2 are the same.
+
+n=1000000
+
+sort():0.51 seconds
+v1/v2 are different.
+insertion_sort():12821.8 seconds
+v1/v2 are the same.
+
